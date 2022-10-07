@@ -174,7 +174,6 @@ class SelectLocationFragment : BaseFragment(), OnMapReadyCallback {
             marker = map.addMarker(
                 MarkerOptions()
                     .position(latLng)
-                    .title(getString(R.string.dropped_pin))
                     .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE))
             )
             binding.saveLocation.visibility = View.VISIBLE
